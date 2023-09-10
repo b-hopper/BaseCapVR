@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1248117802491594987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248117802491594981}
+  - component: {fileID: 1248117802491594986}
+  m_Layer: 0
+  m_Name: NetworkPrefabStorage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1248117802491594981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248117802491594987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.30229238, y: 0.7538791, z: -3.3713675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1248117802491594986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248117802491594987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c6e1c5b4e75294ba3db67ab7d58296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkManagerPrefab: {fileID: 512555721360517959, guid: 8ef9ec6454d255a4193a1e624ff6053a, type: 3}
+  userPrefab: {fileID: 5299618850276396156, guid: 91ccb9b140b0d1e4185e06c37e2f5c62, type: 3}
+  starBaseManagerPrefab: {fileID: 6489035912233562716, guid: 2c5c3726cebbd9c419cc4e6175335106, type: 3}
+  starMapManagerPrefab: {fileID: 5190343880900593512, guid: 989d079099c457e489a9012f4319daca, type: 3}
+  gameStateManagerPrefab: {fileID: 2263226479189782461, guid: 83fea0b1ae3040c49be47a8aa430f545, type: 3}
+  teamManagerPrefab: {fileID: 7937125523630648907, guid: 9bedadf5eab10254c85e8a5227889902, type: 3}
+  playerTeamAssignmentPrefab: {fileID: 66937497085126715, guid: be4d45e11e9e29a42abfb14753c5ea9a, type: 3}
+  roomDataManagerPrefab: {fileID: 3047248318960318973, guid: b77b043a5a169964398eb7a9aabcedee, type: 3}
+  gameSettingsManagerPrefab: {fileID: 2959099392460434408, guid: 971a8ae78b8449640896214f877e8e1b, type: 3}

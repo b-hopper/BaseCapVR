@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6093294244670094365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6721285617097654832}
+  - component: {fileID: 2656790779196491510}
+  - component: {fileID: 5190343880900593512}
+  m_Layer: 0
+  m_Name: StarmapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6721285617097654832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6093294244670094365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6490926426672133145}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2656790779196491510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6093294244670094365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c9edd2a0c04224582937580b99c0ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
+  starfieldParent: {fileID: 6810926621581572313}
+  objectToDetach: {fileID: 6490926426672133145}
+  starBasePrefab: {fileID: 4924361527870161466, guid: 57a7b2248ac0ede469ba327afd0ad916, type: 3}
+  lineRendererPrefab: {fileID: 7637567694818960756, guid: e6afb4b9d273be345aebfe7ff91a8283, type: 3}
+  mapSize: 0
+  startingDroneCount: 10
+  predefinedStarmapList:
+  - {fileID: 11400000, guid: 940c3d9d0aa4efd488784ce5155ff3b0, type: 2}
+  - {fileID: 11400000, guid: 831d5acd48aa1c848a1ecc1cbf14cf1a, type: 2}
+  - {fileID: 11400000, guid: 7a225f1cd8ad61a4b9ebc8c607c2b032, type: 2}
+  randomizedStarmapSettings:
+  - {fileID: 11400000, guid: 707db7b4c131a3840a0dd7f4bb2d1934, type: 2}
+  - {fileID: 11400000, guid: 0b82d31a91102ad4392cd529df046f16, type: 2}
+  - {fileID: 11400000, guid: 32a5edd4965248e4e8c3383db017199b, type: 2}
+  - {fileID: 11400000, guid: 4b6d1f103c730df4cba6ddf202bc13df, type: 2}
+  initialized: 0
+--- !u!114 &5190343880900593512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6093294244670094365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 0
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 2305
+  NetworkGuid:
+    RawGuidValue: 989d079099c457e489a9012f4319daca
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 2656790779196491510}
+  SimulationBehaviours: []
+--- !u!1001 &5729345627009914631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6721285617097654832}
+    m_Modifications:
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236147415757874725, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+      propertyPath: m_Name
+      value: StarmapPivot
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5323441296744041877, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+--- !u!4 &6490926426672133145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1555675155838133022, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+  m_PrefabInstance: {fileID: 5729345627009914631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6810926621581572313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1227227407250091998, guid: 2b81404ef5aa44d4aaeb17fe0b1bc531, type: 3}
+  m_PrefabInstance: {fileID: 5729345627009914631}
+  m_PrefabAsset: {fileID: 0}
